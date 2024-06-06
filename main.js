@@ -15,11 +15,11 @@ resultado”);
 
 const perguntas = [
 {
-enunciado: “Pergunta 1”,
-alternativas: [“Alternativa 1”, “Alternativa 2”],
+enunciado: “Em que ano foi lançado o primeiro filme de Harry Potter”,
+alternativas: [2001”, “2003”],
 },
 {
-enunciado: “Pergunta 2”,
+enunciado: “”,
 alternativas: [“Alternativa 1”, “Alternativa 2”],
 },
 ];
