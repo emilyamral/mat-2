@@ -1,25 +1,46 @@
-const caixaPrincipal = document.querySelector(“.caixa-
-principal”);
+:root{
+    --cor-fundo: #01080E;
+    --cor-principal: #0B0D20 ;
+    --cor-secundaria: #212333;
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #D7F9FF;
+}
 
-const caixaPerguntas = document.querySelector(“.caixa-
-perguntas”);
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
-const caixaAlternativas = document.querySelector(“.caixa-
-alternativas”);
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
 
-const caixaResultado = document.querySelector(“.caixa-
-resultado”);
+h1{
+    color: var(--cor-destaque);
+}
 
-const textoResultado = document.querySelector(“.texto-
-resultado”);
+.caixa-perguntas{
+    padding-bottom: 10px;
+}
 
-const perguntas = [
-{
-enunciado: “Em que ano foi lançado o primeiro filme de Harry Potter”,
-alternativas: [2001”, “2003”],
-},
-{
-enunciado: “”,
-alternativas: [“Alternativa 1”, “Alternativa 2”],
-},
-];
+button{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
