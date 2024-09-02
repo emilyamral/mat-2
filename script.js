@@ -20,30 +20,30 @@ const perguntas = [
 },
 
 {
-    enunciado: "Como você pode ajudar a combater a disseminação de fake news, especialmente as que perpetuam o racismo?",
+    enunciado: "Para qual casa Harry Potter foi direcionado?",
     alternativas: [
         {
 
         texto: "Verificando a veracidade das informações antes de compartilhar qualquer conteúdo, especialmente sobre temas sensíveis como racismo.",
-        afirmacao: "afirmação 3"
+        afirmacao: "Grifinória"
         },
         {
         texto:"Educando amigos e familiares sobre os perigos das fake news e incentivando-os a não compartilhar conteúdos falsos que perpetuam o racismo.",
-        afirmacao: "afirmação 4"
+        afirmacao: "Sonserina"
         }
     ]
 },
 
 {
-    enunciado: "Quais são os benefícios do uso de recursos tecnológicos para promover a acessibilidade em diferentes ambientes?",
+    enunciado: "Com quantos anos se entra em Hogwarts?",
     alternativas: [
         {
         texto:"Promover a instalação de painéis solares em escolas e centros comunitários de comunidades marginalizadas.",
-        afirmacao: "afirmação 5"
+        afirmacao: "11 anos"
         },
         {
         texto:"Defender políticas públicas que subsidiem a energia solar para famílias de baixa renda.",
-        afirmacao: "afirmação 6"
+        afirmacao: "13 anos"
         }
     ]
 }
