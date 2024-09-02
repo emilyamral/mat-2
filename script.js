@@ -6,15 +6,15 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
 {
-    enunciado: "Quais são os desafios enfrentados na criação de tecnologias acessíveis e como podem ser superados?",
+    enunciado: "Quando foi lançado o primeiro filme de Harry Potter?",
     alternativas: [
         {
             texto:"Custos elevados",
-            afirmacao: "afirmação 1"
+            afirmacao: "2001"
         },
         {
         texto:"Conscientização e educação",
-        afirmacao: "afirmação 2"
+        afirmacao: "2003"
         }
     ]
 },
